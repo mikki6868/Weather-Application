@@ -1,0 +1,28 @@
+form {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.fa-solid {
+  color: #469e47;
+  font-size: x-large;
+  text-align: center;
+}
+.container {
+  background-color: #8dd68f;
+  margin-top: 200px;
+  margin: 200px 100px 100px 100px;
+  padding: 20px;
+}
+.col-2 {
+  color: white;
+  padding: 5px;
+}
+

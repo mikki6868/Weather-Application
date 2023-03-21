@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Weather</title>
+    <script
+      src="https://kit.fontawesome.com/a925d15085.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="/Users/mikaylafitzherbert/Desktop/Weather Project/src/style.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      
+      <div class="row justify-content-between">
+        <div class="col-4">
+          <form>
+            <input type="search" placeholder="Enter your city" id="search-text-input"/>
+            <br />
+            <input type="submit" />
+          </form>
+        </div>
+        <div class="col-4">
+          <h1>Currently</h1>
+          <h2>Date</h2>
+          <h3 id="city-input">Mountainside,NJ</h3>
+        </div>
+        <p>
+          <i class="fa-solid fa-cloud"></i>
+          <br />
+          <h3 id ="currently">
+          38°F
+          </h3>
+          <h4>
+          H: 49° L:36°
+          </h4>
+      
+
+        Forecast for this week:
+        </p>
+
+        <div class="row">
+          <div class="col-2">
+            Today
+            <br />
+            <i class="fa-solid fa-cloud-rain"></i>
+            <br />
+            36°F / <strong>49°F</strong>
+          </div>
+          <div class="col-2">
+            Tomorrow
+            <br />
+            <i class="fa-solid fa-cloud-rain"></i>
+            <br />
+            30°F / <strong>41°F</strong>
+          </div>
+          <div class="col-2">
+            Thursday
+            <br />
+            <i class="fa-solid fa-cloud"></i>
+            <br />
+            36°F / <strong>52°F</strong>
+          </div>
+          <div class="col-2">
+            Friday
+            <br />
+            <i class="fa-solid fa-wind"></i>
+            <br />
+            20°F / <strong>47°F</strong>
+          </div>
+          <div class="col-2">
+            Saturday
+            <br />
+            <i class="fa-solid fa-cloud"></i>
+            <br />
+            28°F / <strong>33°F</strong>
+          </div>
+          <div class="col-2">
+            Sunday
+            <br />
+            <i class="fa-solid fa-cloud"></i>
+            <br />
+            28°F / <strong>44°F</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+    <link href="/Users/mikaylafitzherbert/Desktop/Weather Project/app.js"/>
+  </body>
+</html>
